@@ -1,0 +1,2 @@
+Rudimentary face detection :
+Used OpenCV v-4.5.5 with pre-trained face detection classifier haarcascade (creating a Cascade classifier object). Created a VideoCapture object to use the only camera attached to the laptop. The main loop for face detection is initialised with a MAT object - frame, to capture each frame, then converted to grayscale and use faceCascade to detect the face and mark it with a rectangle.
